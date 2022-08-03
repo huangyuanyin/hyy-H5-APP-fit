@@ -12,6 +12,7 @@
       </van-button>
     </div>
   </van-form>
+  <div class="test-viewport">测试转换</div>
 </template>
 
 <script setup lang="ts">
@@ -26,5 +27,14 @@ const onSubmit = (values: any) => {
 <style scoped>
 .van-form {
   width: 100vw;
+}
+
+.test-viewport {
+  width: 750px;
+  height: 100px;
+  font-size: 40px;
+  text-align: center;
+  line-height: 100px;
+  background: #13b5b1;
 }
 </style>

@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.8",
+    "cnjm-postcss-px-to-viewport": "^1.0.0",
     "vant": "^3.5.3",
     "vue": "^3.2.37"
   },
